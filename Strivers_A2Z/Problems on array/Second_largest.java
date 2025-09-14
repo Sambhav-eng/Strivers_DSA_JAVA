@@ -1,8 +1,8 @@
-import java.util.*;
-public class Second_Largest 
+
+public class Second_largest 
 {
 
-    private int secondSmallest(int[] arr, int n)
+    private static int secondSmallest(int[] arr, int n)
     {
         if ( n<2)
         return -1;
