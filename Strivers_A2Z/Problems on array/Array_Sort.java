@@ -26,5 +26,7 @@ public class Array_Sort
         
        boolean s = Sort(arr,n);
        System.out.print(s);
+
+       in.close();
     }
 }
