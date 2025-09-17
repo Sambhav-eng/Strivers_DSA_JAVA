@@ -64,5 +64,7 @@ public class Remove_duplicates {
 
         System.out.println("\nArray of Duplicate Elemensts is : ");
         System.out.println(s1);
+
+        in.close();
     }
 }
