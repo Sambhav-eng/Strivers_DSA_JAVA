@@ -29,6 +29,7 @@ public class _2Sum {
                 }
             }
         }
+        return array;
     }
 
     public static void main(String[] args) {
@@ -47,5 +48,7 @@ public class _2Sum {
         int arr1[] = Sum(arr, n, t);
         System.out.println(
                 "Array after Left Rotation is : " + Arrays.toString(arr1));
+
+                in.close();
     }
 }
