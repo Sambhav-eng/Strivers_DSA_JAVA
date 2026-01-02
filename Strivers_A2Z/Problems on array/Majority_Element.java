@@ -45,5 +45,6 @@
       Majority_Element obj =  new Majority_Element();
       int a = obj.majority(arr, n );
       System.out.println(a);
+      in.close();
     }
  }

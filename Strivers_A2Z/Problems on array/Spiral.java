@@ -1,9 +1,9 @@
 //Spiral matrix
 import java.util.*;
-public class Main
+public class Spiral
   {
 
-    public static int[] Spiral(int[][] arr , int a , int b)
+    public static int[] Spirals(int[][] arr , int a , int b)
     {
 
       int k[]=new int[a*b];
@@ -65,7 +65,7 @@ public class Main
               a[i][j] = in.nextInt ();
             }
         }
-      int array[] = Spiral(a , n,m);
+      int array[] = Spirals(a , n,m);
 
       System.out.println();
       for(int i = 0 ; i < array.length ; i ++ )
@@ -73,5 +73,6 @@ public class Main
          
           System.out.print(array[i]);
         }
+        in.close();
     }
   }

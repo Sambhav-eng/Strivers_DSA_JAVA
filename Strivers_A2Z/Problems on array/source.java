@@ -19,7 +19,6 @@
 
         private static int[] comp(int arr[], int t)
         {
-            int newarr[]=new int[2];
             while(check(arr,t))
             {
                 for (int i = 0; i < arr.length; i++)
@@ -62,5 +61,6 @@
             System.out.println("YES");
             int a[]=comp(arr, tar);    
             System.out.println(Arrays.toString(a));
+            in.close();
         }
     }

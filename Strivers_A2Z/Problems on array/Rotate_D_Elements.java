@@ -9,7 +9,6 @@ public class Rotate_D_Elements {
          * k = number of roation.
          * ch = check for left or right.
          */
-        int arr[] = new int[s];
         int a =0 ;
             if (k < s) {
 
@@ -61,5 +60,6 @@ public class Rotate_D_Elements {
         int arr1[] = Rotate(arr, n, k, check);
         System.out.println(
                 "Array after Left Rotation is : " + Arrays.toString(arr1));
+                in.close();
     }
 }

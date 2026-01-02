@@ -19,7 +19,7 @@ class Pascal {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Pascal sol = new Pascal();
         int r = 5, c = 3;
         System.out.println(sol.findPascalElement(r, c));
     }

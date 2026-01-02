@@ -15,8 +15,7 @@ public class _2Sum {
     }
 
     private static int[] Sum(int[] array, int s, int tar) {
-        _2Sum obj = new _2Sum();
-        if (obj.check(array, s, tar) == false) {
+        if (_2Sum.check(array, s, tar) == false) {
             return new int[] { -1, -1 };
         } else {
             for (int i = 0; i < s - 1; i++) {

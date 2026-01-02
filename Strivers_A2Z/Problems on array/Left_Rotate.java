@@ -27,5 +27,6 @@ public class Left_Rotate {
         System.out.println(
             "Array after Left Rotation is : " + Arrays.toString(arr1)
         );
+        in.close();
     }
 }

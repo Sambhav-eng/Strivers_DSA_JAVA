@@ -1,7 +1,7 @@
 //Reverse Pair
 
 import java.util.*;
-public class Main
+public class Reverse_Pairs
   {
     
     public static int Spiral(int[] arr)
@@ -35,5 +35,7 @@ public class Main
       
       int k = Spiral(a);
       System.out.println(k);
+      in.close();
     }
+   
   }
